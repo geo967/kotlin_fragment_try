@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#48075A"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.learnfragment.Fragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:layout_width="wrap_content"
+        android:name="com.example.learnfragment.Fragment2"
+        android:layout_height="wrap_content"
+
+        />
+
+</LinearLayout>
